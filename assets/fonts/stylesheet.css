@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-ExtraLight.eot');
+    src: local('Cyntho Next ExtraLight'), local('CynthoNext-ExtraLight'),
+        url('CynthoNext-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-ExtraLight.woff2') format('woff2'),
+        url('CynthoNext-ExtraLight.woff') format('woff'),
+        url('CynthoNext-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-BoldItalic.eot');
+    src: local('Cyntho Next Bold Italic'), local('CynthoNext-BoldItalic'),
+        url('CynthoNext-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-BoldItalic.woff2') format('woff2'),
+        url('CynthoNext-BoldItalic.woff') format('woff'),
+        url('CynthoNext-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-SemiBoldItalic.eot');
+    src: local('Cyntho Next SemiBold Italic'), local('CynthoNext-SemiBoldItalic'),
+        url('CynthoNext-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-SemiBoldItalic.woff2') format('woff2'),
+        url('CynthoNext-SemiBoldItalic.woff') format('woff'),
+        url('CynthoNext-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-MediumItalic.eot');
+    src: local('Cyntho Next Medium Italic'), local('CynthoNext-MediumItalic'),
+        url('CynthoNext-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-MediumItalic.woff2') format('woff2'),
+        url('CynthoNext-MediumItalic.woff') format('woff'),
+        url('CynthoNext-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-Regular.eot');
+    src: local('Cyntho Next Regular'), local('CynthoNext-Regular'),
+        url('CynthoNext-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-Regular.woff2') format('woff2'),
+        url('CynthoNext-Regular.woff') format('woff'),
+        url('CynthoNext-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-Medium.eot');
+    src: local('Cyntho Next Medium'), local('CynthoNext-Medium'),
+        url('CynthoNext-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-Medium.woff2') format('woff2'),
+        url('CynthoNext-Medium.woff') format('woff'),
+        url('CynthoNext-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-ExtraBold.eot');
+    src: local('Cyntho Next ExtraBold'), local('CynthoNext-ExtraBold'),
+        url('CynthoNext-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-ExtraBold.woff2') format('woff2'),
+        url('CynthoNext-ExtraBold.woff') format('woff'),
+        url('CynthoNext-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-ExtraLightItalic.eot');
+    src: local('Cyntho Next ExtraLight Italic'), local('CynthoNext-ExtraLightItalic'),
+        url('CynthoNext-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-ExtraLightItalic.woff2') format('woff2'),
+        url('CynthoNext-ExtraLightItalic.woff') format('woff'),
+        url('CynthoNext-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-Bold.eot');
+    src: local('Cyntho Next Bold'), local('CynthoNext-Bold'),
+        url('CynthoNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-Bold.woff2') format('woff2'),
+        url('CynthoNext-Bold.woff') format('woff'),
+        url('CynthoNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-ExtraBoldItalic.eot');
+    src: local('Cyntho Next ExtraBold Italic'), local('CynthoNext-ExtraBoldItalic'),
+        url('CynthoNext-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-ExtraBoldItalic.woff2') format('woff2'),
+        url('CynthoNext-ExtraBoldItalic.woff') format('woff'),
+        url('CynthoNext-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-Thin.eot');
+    src: local('Cyntho Next Thin'), local('CynthoNext-Thin'),
+        url('CynthoNext-Thin.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-Thin.woff2') format('woff2'),
+        url('CynthoNext-Thin.woff') format('woff'),
+        url('CynthoNext-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-SemiBold.eot');
+    src: local('Cyntho Next SemiBold'), local('CynthoNext-SemiBold'),
+        url('CynthoNext-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-SemiBold.woff2') format('woff2'),
+        url('CynthoNext-SemiBold.woff') format('woff'),
+        url('CynthoNext-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-Italic.eot');
+    src: local('Cyntho Next Italic'), local('CynthoNext-Italic'),
+        url('CynthoNext-Italic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-Italic.woff2') format('woff2'),
+        url('CynthoNext-Italic.woff') format('woff'),
+        url('CynthoNext-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-LightItalic.eot');
+    src: local('Cyntho Next Light Italic'), local('CynthoNext-LightItalic'),
+        url('CynthoNext-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-LightItalic.woff2') format('woff2'),
+        url('CynthoNext-LightItalic.woff') format('woff'),
+        url('CynthoNext-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-Light.eot');
+    src: local('Cyntho Next Light'), local('CynthoNext-Light'),
+        url('CynthoNext-Light.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-Light.woff2') format('woff2'),
+        url('CynthoNext-Light.woff') format('woff'),
+        url('CynthoNext-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('CynthoNext-ThinItalic.eot');
+    src: local('Cyntho Next Thin Italic'), local('CynthoNext-ThinItalic'),
+        url('CynthoNext-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('CynthoNext-ThinItalic.woff2') format('woff2'),
+        url('CynthoNext-ThinItalic.woff') format('woff'),
+        url('CynthoNext-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
