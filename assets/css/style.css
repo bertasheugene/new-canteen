@@ -9,11 +9,12 @@
 body{
     font-family: 'Cyntho Next', sans-serif;
     color: #000000;
+    width: 1600px;
 }
 
 .container{
     margin: 0 auto;
-    width: 1600px;
+    width: 1170px;
 }
 a,
 a:hover,
@@ -30,7 +31,7 @@ ul{
 
 /* Header */
 .header__wrapper{
-    width: 73%;
+    width: 100%;
     margin: 0 auto;
 }
 .top{
@@ -84,7 +85,7 @@ ul{
 }
 .header__bottom{
     padding-top: 8px;
-    padding-bottom: 14px;
+    padding-bottom: 7px;
     cursor: pointer;
 }
 .bottom__logo{
@@ -127,26 +128,438 @@ ul{
 .submenu{
     display: none;
 }
-/* Wave */
+/* End header */
 
-.custom-shape-divider-bottom-1602527953 {
+
+/* Headline section */
+.main{
+    width: 100%;
+}
+.headline{
+    background: url('../img/background-1.png') no-repeat center; 
+    background-size: cover;
+    position: relative;
+    background-position-y: -79px;
+}
+.wave{
     position: absolute;
     bottom: 0;
-    left: 0;
+}
+.headline__wrapper{
     width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+    margin: 0 auto;
+    padding-top: 137px;
+    padding-bottom: 232px;
+}
+.headline__title{
+    font-weight: bold;
+    font-size: 48px;
+    color: #383838;
+    margin-bottom: 19px;
+    line-height: 58px;
+}
+.headline__subtitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 17px;
+}
+.button{
+    display: inline-block;
+    color:#FFFFFF;
+    background-color: #F4A17B;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-.custom-shape-divider-bottom-1602527953 svg {
+.headline__button{
+    padding: 17px 46px;
+}
+
+.headline__button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* End */
+
+/* Dinners section */
+
+.dinners__wrapper{
+    padding-top: 30px;
+}
+.dinners__content{
+    padding-bottom: 155px;
     position: relative;
-    display: block;
-    width: calc(148% + 1.3px);
-    height: 55px;
+}
+.title{
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #383838;
+}
+.dinners__title{
+    margin-bottom: 12px;
+}
+.subtitle{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.dinners__subtitle{
+    margin-bottom: 53px;
+}
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dinners__navigation{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.category__item{
+    font-size: 16px;
+    color: #9E9E9E;
+}
+.category__item:hover{
+    color: #000000;
+    cursor: pointer;
+}
+.category__item_black{
+    color: #000000;
 }
 
-.custom-shape-divider-bottom-1602527953 .shape-fill {
-    fill: #FFFFFF;
+.content{
+    display: flex;
+    justify-content: space-between;
 }
-/* End wave */
+.foods{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-food{
+    align-self: center;
+    position: absolute;
+}
+.arrow-food:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.arrow-left{
+    left: -75px;
+}
+.arrow-right{
+    right: -75px;
+}
+.dinners__foods{
+    width: 100%;
+}
+.food{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(167, 167, 167, 0.26);
+    border-radius: 5px;
+}
+.foods__item{
+    padding-bottom: 15px;
+}
+.food__image{
+    margin-bottom: 16px;
+}
+.food__description{
+    padding-left: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.food__property{
+    padding-left: 17px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.food__gram{
+    font-size: 14px;
+    color: #383838;
+}
+.food__price{
+    font-weight: 300;
+    font-size: 18px;
+    color: #383838;
+}
+.food__bottom{
+    padding-left: 17px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.food__count{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #383838;
+}
+.food__button{
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 15px;
+}
+.food__button:hover{
+    background-color:#F1813D;
+    cursor: pointer;
+
+}
+.minus,
+.number{
+    margin-right: 2px;
+}
+.minus,
+.plus{
+    font-weight: 600;
+    font-size: 34px;
+    color: #F4A17B;
+    cursor: pointer;
+    line-height: 26px;
+}
+.minus{
+    display: flex;
+    align-items: center;
+}
+.food__attention{
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #DB7F55;
+    padding-top: 10px;
+}
+.dinners{
+    position: relative;
+}
+.wave-two{
+    position: absolute;
+    bottom: -1px;
+}
+
+/* Menus */
+
+.menus{
+    background-color:#FAFAFA ;
+    position: relative;
+}
+.menus__wrapper{
+    padding-top: 15px;
+    padding-bottom: 155px;
+}
+.menus__title{
+    margin-bottom: 12px;
+}
+.menus__subtitle{
+    margin-bottom: 53px;
+}
+.menus__navigation{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.menus__foods{
+    width: 100%;
+}
+.menus__content{
+    position: relative;
+}
+
+/* Project */
+.project{
+    position: relative;
+}
+.project__wrapper{
+    width: 100%;
+    margin:  0 auto;
+    padding-top: 40px;
+    padding-bottom: 155px;
+}
+.project-description{
+    display: flex;
+    justify-content: space-between;
+}
+.project-description__text{
+    padding-top: 110px;
+}
+.text{
+    width: 40%;
+}
+.text__title{
+    margin-bottom: 15px;
+}
+.text__subtitle{
+    margin-bottom: 32px;
+}
+.text__title,
+.text__subtitle{
+    text-align: left;
+}
+.text__button{
+    padding: 17px 31px;
+}
+.text__button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.project-description__image{
+    display: flex;
+    justify-content: center;
+}
+
+/* Eko */
+.eko{
+    position: relative;
+    background: #FAFAFA;
+}
+.eko__wrapper{
+    padding-top: 56px;
+    padding-bottom: 155px;
+    text-align: center;
+}
+.eko__title{
+    margin-bottom: 77px;
+}
+.eko__foods{
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-bottom:30px ;
+}
+.food__cl{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #5F5F5F;
+    margin-left: 17px;
+    margin-bottom: 6px;
+}
+.eko__image{
+    margin-bottom: 7px;
+}
+.eko__description{
+    margin-bottom: 12px;
+    height: 34px;
+}
+.eko__bottom,
+.eko__property{
+    padding-right: 20px;
+}
+.eko__property{
+    margin-bottom: 14px;
+}
+.eko__item{
+    margin-bottom: 25px;
+    position: relative;
+}
+.eko__button{
+    padding: 18px 25px;
+}
+.eko__button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Reviews */
+.reviews__wrapper{
+    padding-top: 12px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.reviews__title{
+    margin-bottom: 55px;
+}
+.review{
+    box-shadow: 0px 0px 15px rgba(163, 163, 163, 0.25);
+    border-radius: 5px;
+    width: 64%;
+}
+.reviews__content{
+    margin: 0 auto;
+    padding: 19px;
+    margin-bottom: 48px;
+}
+.review__wrapper{
+    border: 1px solid rgba(244, 161, 123, 0.29);
+    border-radius: 5px;
+    padding-top: 47px;
+    padding-left: 66px;
+    padding-right: 64px;
+    position: relative;
+}
+.review__description{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #383838;
+    margin-bottom: 35px;
+}
+.review__name{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #383838;
+    margin-bottom: 6px;
+}
+.review__stars{
+    margin-bottom: 45px;
+}
+
+.review__arrow{
+    padding: 13px 18px;
+    padding-bottom: 12px;
+    background: #F4A17B;
+    border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 23px);
+    text-align: center;
+}
+.review__arrow_left{
+    left:-46px;
+    padding-left: 16px;
+}
+.review__arrow_right{
+    right: -46px;
+    padding-right: 16px;
+}
+.review__arrow:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.button__write{
+    padding: 18px 30px;
+    margin-right: 16px;
+}
+.button__write:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.button__all{
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    border: 2px solid #F4A17B;
+    color: #383838;
+}
+.button__all:hover{
+    cursor: pointer;
+    background-color: #F4A17B;
+    color: #FFFFFF;
+
+}
