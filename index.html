@@ -36,13 +36,17 @@
                         <h1 class="bottom__title">НОВАЯ<br>
                             СТОЛОВАЯ</h1>
                     </div>
-                    <div class="burger">
-                        <img src="./assets/img/burger.svg" alt="burger menu">
+                    <div class="burger-nav">
+                        <img class="burger" src="./assets/img/burger.svg" alt="burger menu">
+                        <img class="close" src="./assets/img/close.svg" alt="close">
                     </div>
                     <nav class="bottom__navigation navigation">
                         <ul class="navigation__list">
                             <li class="navigation__item">
-                                <a class="navigation__link arrow" href="#">Меню</a>
+                                <div class="link__wrapper">
+                                <a class="navigation__link arrow" href="#">Меню </a>
+                                <span class="navigation__arrow"><img src="./assets/img/arrow.svg" alt=""></span>
+                                </div>
                                 <ul class="navigation__submenu submenu">
                                     <li class="submenu__item">
                                         <a class="submenu__link" href="">ЗАВТРАКИ</a>
@@ -60,12 +64,17 @@
                                         <a class="submenu__link" href="">СОУСЫ И НАМАЗКИ</a>
                                     </li>
                                     <li class="submenu__item">
-                                        <a class="submenu__link" href="">НАПИТКИ</a>
+                                        <a class="submenu__link submenu__link_last" href="">НАПИТКИ</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="navigation__item">
-                                <a class="navigation__link arrow" href="">Магазин</a>
+                                <div class="link__wrapper">
+                                    <a class="navigation__link arrow" href="">Магазин</a>
+                                    <span class="navigation__arrow"><img src="./assets/img/arrow.svg" alt=""></span>
+                                </div>
+                                
+                                 
                                 <ul class="navigation__submenu submenu">
                                     <li class="submenu__item">
                                         <a class="submenu__link" href="">ЗАВТРАКИ</a>
@@ -83,7 +92,7 @@
                                         <a class="submenu__link" href="">СОУСЫ И НАМАЗКИ</a>
                                     </li>
                                     <li class="submenu__item">
-                                        <a class="submenu__link" href="">НАПИТКИ</a>
+                                        <a class="submenu__link submenu__link_last" href="">НАПИТКИ</a>
                                     </li>
                                 </ul>
                             </li>
@@ -97,7 +106,7 @@
                                 <a class="navigation__link" href="">партнерам</a>
                             </li>
                             <li class="navigation__item">
-                                <a class="navigation__link" href="">Контакты</a>
+                                <a class="navigation__link navigation__link_last" href="">Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -363,6 +372,11 @@
                                         В корзину
                                     </div>
                                 </div>
+                                <div class="sales">
+                                    <div class="sales__item new">
+                                        <p>Новинка</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="foods__item food eko__item">
                                 <img class="food__image eko__image" src="./assets/img/eko2.png" alt="">
@@ -383,24 +397,9 @@
                                         В корзину
                                     </div>
                                 </div>
-                            </div>
-                            <div class="foods__item food eko__item">
-                                <img class="food__image eko__image" src="./assets/img/eko3.png" alt="">
-                                <p class="food__cl">Натуральные масла</p>
-                                <p class="food__description eko__description">Маринованная красная<br>
-                                    капуста</p>
-                                <div class="food__property eko__property">
-                                    <p class="food__gram">170г</p>
-                                    <p class="food__price">90р</p>
-                                </div>
-                                <div class="food__bottom eko__bottom">
-                                    <div class="food__count">
-                                        <span class="minus">-</span>
-                                        <span class="number">2</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                    <div class="food__button button">
-                                        В корзину
+                                <div class="sales">
+                                    <div class="sales__item hit">
+                                        <p>Хит</p>
                                     </div>
                                 </div>
                             </div>
@@ -421,6 +420,39 @@
                                     </div>
                                     <div class="food__button button">
                                         В корзину
+                                    </div>
+                                </div>
+                                <div class="sales">
+                                    <div class="sales__item hit">
+                                        <p>Хит</p>
+                                    </div>
+                                    <div class="sales__item new">
+                                        <p>Новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="foods__item food eko__item">
+                                <img class="food__image eko__image" src="./assets/img/eko3.png" alt="">
+                                <p class="food__cl">Натуральные масла</p>
+                                <p class="food__description eko__description">Маринованная красная<br>
+                                    капуста</p>
+                                <div class="food__property eko__property">
+                                    <p class="food__gram">170г</p>
+                                    <p class="food__price">90р</p>
+                                </div>
+                                <div class="food__bottom eko__bottom">
+                                    <div class="food__count">
+                                        <span class="minus">-</span>
+                                        <span class="number">2</span>
+                                        <span class="plus">+</span>
+                                    </div>
+                                    <div class="food__button button">
+                                        В корзину
+                                    </div>
+                                </div>
+                                <div class="sales">
+                                    <div class="sales__item promo">
+                                        <p>Акция</p>
                                     </div>
                                 </div>
                             </div>
@@ -442,6 +474,11 @@
                                         В корзину
                                     </div>
                                 </div>
+                                <div class="sales">
+                                    <div class="sales__item new">
+                                        <p>Новинка</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="foods__item food eko__item">
                                 <img class="food__image eko__image" src="./assets/img/eko2.png" alt="">
@@ -462,24 +499,9 @@
                                         В корзину
                                     </div>
                                 </div>
-                            </div>
-                            <div class="foods__item food eko__item">
-                                <img class="food__image eko__image" src="./assets/img/eko3.png" alt="">
-                                <p class="food__cl">Натуральные масла</p>
-                                <p class="food__description eko__description">Маринованная красная<br>
-                                    капуста</p>
-                                <div class="food__property eko__property">
-                                    <p class="food__gram">170г</p>
-                                    <p class="food__price">90р</p>
-                                </div>
-                                <div class="food__bottom eko__bottom">
-                                    <div class="food__count">
-                                        <span class="minus">-</span>
-                                        <span class="number">2</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                    <div class="food__button button">
-                                        В корзину
+                                <div class="sales">
+                                    <div class="sales__item hit">
+                                        <p>Хит</p>
                                     </div>
                                 </div>
                             </div>
@@ -500,6 +522,39 @@
                                     </div>
                                     <div class="food__button button">
                                         В корзину
+                                    </div>
+                                </div>
+                                <div class="sales">
+                                    <div class="sales__item hit">
+                                        <p>Хит</p>
+                                    </div>
+                                    <div class="sales__item new">
+                                        <p>Новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="foods__item food eko__item">
+                                <img class="food__image eko__image" src="./assets/img/eko3.png" alt="">
+                                <p class="food__cl">Натуральные масла</p>
+                                <p class="food__description eko__description">Маринованная красная<br>
+                                    капуста</p>
+                                <div class="food__property eko__property">
+                                    <p class="food__gram">170г</p>
+                                    <p class="food__price">90р</p>
+                                </div>
+                                <div class="food__bottom eko__bottom">
+                                    <div class="food__count">
+                                        <span class="minus">-</span>
+                                        <span class="number">2</span>
+                                        <span class="plus">+</span>
+                                    </div>
+                                    <div class="food__button button">
+                                        В корзину
+                                    </div>
+                                </div>
+                                <div class="sales">
+                                    <div class="sales__item promo">
+                                        <p>Акция</p>
                                     </div>
                                 </div>
                             </div>
@@ -596,5 +651,6 @@
             </div>
         </div>
     </footer>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
